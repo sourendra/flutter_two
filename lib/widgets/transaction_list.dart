@@ -64,7 +64,7 @@ class TransactionList extends StatelessWidget {
                       ),
                       borderRadius: BorderRadius.circular(4)),
                   child: Text(
-                    '\u20b9 ${transaction.amount}',
+                    '\u20b9 ${transaction.amount.toStringAsFixed(2)}',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 16,
